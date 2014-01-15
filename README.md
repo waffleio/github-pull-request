@@ -12,6 +12,12 @@ This project isn't consumable as is (as an npm module, for example). It's also v
 
 ### Environment dependencies
 
+This code assumes there are two environment varibles set:
+
+`APPLICATION_PUBLIC_REPO_ACCESS_TOKEN`: this is a GitHub access token that has permissions to interact with the waffle.io public repo. These permissions are required to create a fork of someone's repo.
+
+`APPLICATION_ACCESS_TOKEN`: this is a GitHub access token with no permissions. It's used to make requests to public repos to fetch their readme file. You can reuse `APPLICATION_PUBLIC_REPO_ACCESS_TOKEN`, although it's more permissions than you need for this action.
+
 ### Example
 
 You would use this like so:
