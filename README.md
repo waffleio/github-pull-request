@@ -20,7 +20,7 @@ This code assumes there are two environment varibles set:
 
 ### Example
 
-You would use this like so:
+Here's how waffle uses this, in the context of an `express` route.
 
 ```coffeescript
 app.get '/:username/:repoName/pull', RouteHelpers.checkAuthForPullRequest, (req, res) ->
