@@ -1,0 +1,36 @@
+{
+  "name": "github-pull-request-handler",
+  "version": "0.0.0",
+  "description": "waffle.io's way of sending automatic pull requests for our badge",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waffleio/pull-request-handler"
+  },
+  "keywords": [
+    "github",
+    "pull",
+    "request"
+  ],
+  "author": "Andrew Homeyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waffleio/pull-request-handler/issues"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.11",
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "~0.4.0",
+    "sinon": "~1.7.3",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "q": "~1.0.0",
+    "request": "~2.31.0"
+  }
+}
